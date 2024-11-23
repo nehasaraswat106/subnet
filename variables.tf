@@ -1,5 +1,6 @@
+# Subnet Module Variables
 variable "vpc_id" {
-  description = "VPC ID"
+  description = "VPC ID for the subnet"
   type        = string
   default     = "vpc-0be1f971dc82b5397"
 }
@@ -13,5 +14,5 @@ variable "cidr_block" {
 variable "availability_zone" {
   description = "Availability zone for the subnet"
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-1a"
 }
