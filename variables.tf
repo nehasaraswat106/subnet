@@ -1,5 +1,5 @@
 variable "vpc_id" {
-  description = "VPC ID for the subnet"
+  description = "VPC ID where the subnet will be created"
   type        = string
 }
 
